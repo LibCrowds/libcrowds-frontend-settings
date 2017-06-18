@@ -1,10 +1,4 @@
 # site-settings-playbills
 
-Configuration settings for the LibCrowds playbills website.
-
-The main files are:
-
-- **collection.md:** Background info on the collection.
-- **objectives.md:** Main objectives of the project.
-- **team.json:** Team member details.
-- **main.jpg:** An image used within the theme.
+Configuration settings for use with
+[vue-pybossa-frontend](https://github.com/LibCrowds/vue-pybossa-frontend).

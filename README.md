@@ -3,9 +3,7 @@
 Configuration settings for use with
 [vue-pybossa-frontend](https://github.com/LibCrowds/vue-pybossa-frontend).
 
-Within your vue-pybossa-frontend directory:
-
-```
+``` bash
 # move to the custom directory
 cd /path/to/vue-pybossa-frontend/src/custom
 
@@ -16,4 +14,8 @@ git clone https://github.com/LibCrowds/site-settings-playbills
 cd /path/to/vue-pybossa-frontend/src
 rm config.js
 echo "module.exports = require('@/custom/site-settings-playbills/config.js')" >> config.js
+
+# rebuild
+cd ..
+npm run build
 ```

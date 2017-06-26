@@ -1,5 +1,5 @@
 
-The British Library holds a significant collection of Playbills dating from
+The British Library holds a significant collection of playbills dating from
 the 1730s to the 1950s. These playbills list entertainments at theatres,
 fairs, pleasure gardens and other such venues. Small 'handbills' were
 circulated amongst theatre-goers enjoying the performance while larger
@@ -9,7 +9,7 @@ some of which have been digitised.
 
 These single-sheet items are usually empheral (fires always needed lighting!)
 so the Library's collection exists thanks to zealous collectors who saved a
-large number of sheets. These preserved Playbills offer a wealth of
+large number of sheets. These preserved playbills offer a wealth of
 historical detail with thousands of personal names of actors, playwrights,
 composers, and theatre managers. Less well-known and even forgotten
 plays are preserved alongside popular performances and much-loved dramas.

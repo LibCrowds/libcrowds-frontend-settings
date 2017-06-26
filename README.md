@@ -1,4 +1,4 @@
-# site-settings-playbills
+# site-settings-inthespotlight
 
 Configuration settings for use with
 [vue-pybossa-frontend](https://github.com/LibCrowds/vue-pybossa-frontend).
@@ -8,12 +8,12 @@ Configuration settings for use with
 cd /path/to/vue-pybossa-frontend/src/custom
 
 # clone settings
-git clone https://github.com/LibCrowds/site-settings-playbills
+git clone https://github.com/LibCrowds/site-settings-inthespotlight
 
 # point to settings
 cd /path/to/vue-pybossa-frontend/src
 rm config.js
-echo "module.exports = require('@/custom/site-settings-playbills/config.js')" >> config.js
+echo "module.exports = require('@/custom/site-settings-inthespotlight/config.js')" >> config.js
 
 # rebuild
 npm run build

@@ -1,5 +1,7 @@
 # site-settings-inthespotlight
 
+[![Build Status](https://travis-ci.org/LibCrowds/site-settings-inthespotlight.svg?branch=master)](https://travis-ci.org/LibCrowds/site-settings-inthespotlight)
+
 Configuration settings for use with
 [vue-pybossa-frontend](https://github.com/LibCrowds/vue-pybossa-frontend).
 

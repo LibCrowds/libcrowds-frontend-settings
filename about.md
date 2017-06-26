@@ -30,7 +30,7 @@ the collection is more easily searchable?
 The data you help transcribe will be available from
 [data.bl.uk](http://data.bl.uk/). Key information from individual playbills
 will be uploaded to the Library's 'Explore' catalogue to permanently enhance
-the way these Playbills can be found and reviewed. Immerse yourself in the
+the way these playbills can be found and reviewed. Immerse yourself in the
 popular entertainment of the past while contributing to future research -
 get started today!
 

@@ -1,5 +1,5 @@
 {
-  "name": "site-settings-playbills",
+  "name": "site-settings-inthespotlight",
   "version": "1.0.0",
   "description": "Configuration settings for use with vue-pybossa-frontend.",
   "author": "Alex Mendes <alex.mendes@bl.uk>",

@@ -10,7 +10,7 @@ module.exports = {
     email: 'crowdsourcing@bl.uk'
   },
   githubUrl: 'https://github.com/LibCrowds',
-  pybossaHost: isDev ? 'http://127.0.0.1:5000' : 'https://46.101.77.30',
+  pybossaHost: isDev ? 'http://127.0.0.1:5000' : 'https://playbills-backend.libcrowds.com',
   dataLicense: {
     name: 'CC0',
     url: 'https://creativecommons.org/publicdomain/zero/1.0/'

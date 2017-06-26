@@ -1,7 +1,7 @@
 const isDev = process.env.NODE_ENV === 'development'
 
 module.exports = {
-  brand: 'In the spotlight',
+  brand: 'In the Spotlight',
   tagline: 'Bring past performances from the British Library’s historic playbills collection to life.',
   description: 'Help rediscover popular entertainment from the past 300 years by transcribing names and performances on the playbills of Britain’s old theatres.',
   company: 'The British Library',

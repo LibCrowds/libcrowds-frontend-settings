@@ -1,9 +1,9 @@
 const isDev = process.env.NODE_ENV === 'development'
 
 module.exports = {
-  brand: 'Playbills',
-  tagline: 'Bring past performances to life',
-  description: 'Experimental crowdsourcing projects that aim to enrich the British Library\'s collection of historic playbills.',
+  brand: 'Toping the Bill',
+  tagline: 'Shine the lights on the performances recorded amongst the British Library’s collection of historic playbills.',
+  description: 'Help rediscover the names of performances and performers set-up on the playbills of Britain’s old theatres.',
   company: 'The British Library',
   contact: {
     twitter: 'LibCrowds',

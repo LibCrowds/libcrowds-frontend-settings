@@ -1,7 +1,8 @@
 
-Playbills is part of the [LibCrowds](http://libcrowds.com/) platform, which aims to make the 
-collections of the British Library easier to find by asking the public to help transcribe 
-information about collection items.
+Playbills is part of the [LibCrowds](https://libcrowds.com/) platform, 
+which aims to make the collections of the British Library easier to 
+find by asking the public to help transcribe information about collection 
+items.
 
 On the backend, Playbills uses an instance of 
 <a href="http://pybossa.com/" target="_blank">PyBossa</a>, an open-source 

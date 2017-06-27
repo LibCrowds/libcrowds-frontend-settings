@@ -1,4 +1,4 @@
-# site-settings-site-settings-playbills
+# site-settings-playbills
 
 [![Build Status](https://travis-ci.org/LibCrowds/site-settings-playbills.svg?branch=master)](https://travis-ci.org/LibCrowds/site-settings-playbills)
 

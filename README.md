@@ -15,7 +15,7 @@ git clone https://github.com/LibCrowds/site-settings-playbills
 # point to settings
 cd /path/to/vue-pybossa-frontend/src
 rm config.js
-echo "module.exports = require('@/custom/site-settings-playbills/config.js')" >> config.js
+echo "module.exports = require('@/custom/site-settings-playbills/settings/settings.js')" >> settings.js
 
 # rebuild
 npm run build

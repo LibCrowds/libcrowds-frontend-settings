@@ -20,10 +20,10 @@ module.exports = {
   mapboxApiToken: 'pk.eyJ1IjoibGliY3Jvd2RzIiwiYSI6ImNpdmlxaHFzNTAwN3YydHBncHV3dHc3aXgifQ.V4WUx9SDcU_XLFJo2M3RxQ',
   mapboxId: 'mapbox.streets',
   forumUrl: 'http://community.libcrowds.com',
-  bgImg: require('@/custom/site-settings-playbills/background.jpg'),
-  aboutMd: require('@/custom/site-settings-playbills/about.md'),
-  technologyMd: require('@/custom/site-settings-playbills/technology.md'),
-  projectsMd: require('@/custom/site-settings-playbills/projects.md'),
+  bgImg: require('./background.jpg'),
+  aboutMd: require('./about.md'),
+  technologyMd: require('./technology.md'),
+  projectsMd: require('./projects.md'),
   footer: {
     text: 'Part of the LibCrowds crowdsourcing platform',
     url: 'http://www.libcrowds.com'

@@ -17,7 +17,7 @@ module.exports = {
     url: 'https://creativecommons.org/publicdomain/zero/1.0/'
   },
   sentryPublicDsn: 'https://6b592ec745ca4c7bb8d865e1c002e624@sentry.io/195392',
-  mapboxApiToken: 'pk.eyJ1IjoibGliY3Jvd2RzIiwiYSI6ImNpdmlxaHFzNTAwN3YydHBncHV3dHc3aXgifQ.V4WUx9SDcU_XLFJo2M3RxQ',
+  mapboxPublicApiToken: 'pk.eyJ1IjoibGliY3Jvd2RzIiwiYSI6ImNpdmlxaHFzNTAwN3YydHBncHV3dHc3aXgifQ.V4WUx9SDcU_XLFJo2M3RxQ',
   mapboxId: 'mapbox.streets',
   forumUrl: 'http://community.libcrowds.com',
   bgImg: require('@/custom/site-settings-playbills/settings/background.jpg'),

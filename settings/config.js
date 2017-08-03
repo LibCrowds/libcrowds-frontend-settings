@@ -27,5 +27,8 @@ module.exports = {
   footer: {
     text: 'Part of the LibCrowds crowdsourcing platform',
     url: 'http://www.libcrowds.com'
+  },
+  requiresAdmin: {
+    projectManagement: true
   }
 }

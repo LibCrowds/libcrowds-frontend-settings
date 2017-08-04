@@ -31,5 +31,10 @@ module.exports = {
   requiresAdmin: {
     projectManagement: true
   },
-  ignoreCustomThumbnail: true
+  ignoreCustomThumbnail: true,
+  thumbnailPreference: [
+    'custom',
+    'iiif',
+    'gravatar'
+  ]
 }

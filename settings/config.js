@@ -36,5 +36,9 @@ module.exports = {
     'custom',
     'iiif',
     'gravatar'
+  ],
+  avatarPreference: [
+    'custom',
+    'gravatar'
   ]
 }

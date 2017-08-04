@@ -30,5 +30,6 @@ module.exports = {
   },
   requiresAdmin: {
     projectManagement: true
-  }
+  },
+  ignoreCustomThumbnail: true
 }

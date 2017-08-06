@@ -72,4 +72,4 @@ config.footer = {
   url: 'http://www.libcrowds.com'
 }
 
-module.exports config
+module.exports = config

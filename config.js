@@ -52,19 +52,19 @@ config.analytics = 'UA-59584422-4'
 config.forumUrl = 'http://community.libcrowds.com'
 
 // Main background image for the site
-config.bgImg = require('@/custom/site-settings-playbills/settings/background.jpg')
+config.bgImg = require('@/custom/settings/background.jpg')
 
 // Text for the intro section of the about page
-config.aboutMd = require('@/custom/site-settings-playbills/settings/about.md')
+config.aboutMd = require('@/custom/settings/about.md')
 
 // Text for the technology section of the about page
-config.technologyMd = require('@/custom/site-settings-playbills/settings/technology.md')
+config.technologyMd = require('@/custom/settings/technology.md')
 
 // Text for the projects section of the about page
-config.projectsMd = require('@/custom/site-settings-playbills/settings/projects.md')
+config.projectsMd = require('@/custom/settings/projects.md')
 
 // Vue component for the results page
-// config.resultsComponent = require('@/custom/site-settings-playbills/settings/Results.vue')
+// config.resultsComponent = require('@/custom/settings/Results.vue')
 
 // Footer lead text
 config.footer = {

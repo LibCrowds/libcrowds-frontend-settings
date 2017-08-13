@@ -1,7 +1,5 @@
 # site-settings-playbills
 
-[![Build Status](https://travis-ci.org/LibCrowds/site-settings-playbills.svg?branch=master)](https://travis-ci.org/LibCrowds/site-settings-playbills)
-
 Configuration settings for use with
 [vue-pybossa-frontend](https://github.com/LibCrowds/vue-pybossa-frontend).
 

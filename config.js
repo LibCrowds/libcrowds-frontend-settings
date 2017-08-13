@@ -54,17 +54,26 @@ config.forumUrl = 'http://community.libcrowds.com'
 // Main background image for the site
 config.bgImg = require('@/custom/settings/background.jpg')
 
-// Text for the intro section of the about page
-config.aboutMd = require('@/custom/settings/about.md')
-
-// Text for the technology section of the about page
-config.technologyMd = require('@/custom/settings/technology.md')
-
-// Text for the projects section of the about page
-config.projectsMd = require('@/custom/settings/projects.md')
+// Sections of markdown text for the about page
+// Leave the id blank for no nav-link and the subtitle blank for no subtitle
+config.about = [
+  {
+    markdown: require('@/custom/settings/about/intro.md')
+  },
+  {
+    id: 'projects',
+    subtitle: 'Projects',
+    markdown: require('@/custom/settings/about/technology.md')
+  },
+  {
+    id: 'technology',
+    subtitle: 'Technology',
+    markdown: require('@/custom/settings/about/technology.md')
+  }
+]
 
 // Vue component for the results page
-// config.resultsComponent = require('@/custom/settings/Results.vue')
+// config.resultsComponent = require('@/custom/settings/about/Results.vue')
 
 // Footer lead text
 config.footer = {

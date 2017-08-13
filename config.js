@@ -56,7 +56,7 @@ config.bgImg = require('@/custom/settings/background.jpg')
 
 // Sections of markdown text for the about page
 config.about = {
-  intro: require('@/custom/about.md'),
+  intro: require('@/custom/settings/about/intro.md'),
   subsections: [
     {
       id: 'projects',

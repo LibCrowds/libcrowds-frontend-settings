@@ -20,8 +20,8 @@ const config = {
 
 // Order of preference for project thumbnail types
 config.thumbnailPreference = [
-  'custom',
   'iiif',
+  'custom',
   'gravatar'
 ]
 

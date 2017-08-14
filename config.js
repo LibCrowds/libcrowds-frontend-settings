@@ -20,8 +20,8 @@ const config = {
 
 // Order of preference for project thumbnail types
 config.thumbnailPreference = [
-  'iiif',
   'custom',
+  'iiif',
   'gravatar'
 ]
 
@@ -49,7 +49,7 @@ config.sentryPublicDsn = 'https://6b592ec745ca4c7bb8d865e1c002e624@sentry.io/195
 config.analytics = 'UA-59584422-4'
 
 // Link to the site forum
-config.forumUrl = 'http://community.libcrowds.com'
+config.forumUrl = 'https://community.libcrowds.com/t/in-the-spotlight'
 
 // Main background image for the site
 config.bgImg = require('@/custom/settings/background.jpg')
@@ -60,17 +60,17 @@ config.about = {
   subsections: [
     {
       id: 'projects',
-      subtitle: 'Projects',
+      title: 'Projects',
       markdown: require('@/custom/settings/about/projects.md')
     },
     {
       id: 'technology',
-      subtitle: 'Technology',
+      title: 'Technology',
       markdown: require('@/custom/settings/about/technology.md')
     },
     {
       id: 'contact',
-      subtitle: 'Contact',
+      title: 'Contact',
       markdown: require('@/custom/settings/about/contact.md')
     }
   ]

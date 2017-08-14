@@ -1,4 +1,4 @@
-Visit the [In the Spotlight forum](https://community.libcrowds.com/t/in-the-spotlight)
+Visit the [LibCrowds forum](https://community.libcrowds.com/t/in-the-spotlight)
 to ask any questions, report issues, or just let us know what you have
 discovered.
 

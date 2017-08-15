@@ -52,32 +52,32 @@ config.analytics = 'UA-59584422-4'
 config.forumUrl = 'https://community.libcrowds.com/t/in-the-spotlight'
 
 // Main background image for the site
-config.bgImg = require('@/custom/settings/background.jpg')
+config.bgImg = require('@/custom/playbills/background.jpg')
 
 // Sections of markdown text for the about page
 config.about = {
-  intro: require('@/custom/settings/about/intro.md'),
+  intro: require('@/custom/playbills/about/intro.md'),
   subsections: [
     {
       id: 'projects',
       title: 'Projects',
-      markdown: require('@/custom/settings/about/projects.md')
+      markdown: require('@/custom/playbills/about/projects.md')
     },
     {
       id: 'technology',
       title: 'Technology',
-      markdown: require('@/custom/settings/about/technology.md')
+      markdown: require('@/custom/playbills/about/technology.md')
     },
     {
       id: 'contact',
       title: 'Contact',
-      markdown: require('@/custom/settings/about/contact.md')
+      markdown: require('@/custom/playbills/about/contact.md')
     }
   ]
 }
 
 // Vue component for the results page
-// config.resultsComponent = require('@/custom/settings/about/Results.vue')
+// config.resultsComponent = require('@/custom/playbills/about/Results.vue')
 
 // Footer lead text
 config.footer = {

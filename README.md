@@ -5,10 +5,10 @@ Configuration settings for use with
 
 ``` bash
 # clone settings
-git clone https://github.com/LibCrowds/site-settings-playbills /path/to/vue-pybossa-frontend/src/custom/settings
+git clone https://github.com/LibCrowds/site-settings-playbills /path/to/vue-pybossa-frontend/src/settings/playbills
 
 # point to settings
-echo "module.exports = require('@/custom/settings/config.js')" >> /path/to/vue-pybossa-frontend/src/config.js
+echo "module.exports = require('@/custom/playbills/config.js')" >> /path/to/vue-pybossa-frontend/src/config.js
 
 # rebuild
 npm run build /path/to/vue-pybossa-frontend

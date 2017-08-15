@@ -56,7 +56,7 @@ config.bgImg = require('@/custom/site/playbills/background.jpg')
 
 // Sections of markdown text for the about page
 config.about = {
-  intro: require('@/custom/playbills/about/intro.md'),
+  intro: require('@/custom/site/playbills/about/intro.md'),
   subsections: [
     {
       id: 'projects',

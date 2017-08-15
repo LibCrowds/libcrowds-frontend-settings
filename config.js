@@ -1,4 +1,5 @@
 const isDev = process.env.NODE_ENV === 'development'
+const basePath = '/custom/site/settings/projects/playbills'
 
 // Basic configuration
 const config = {
@@ -52,32 +53,32 @@ config.analytics = 'UA-59584422-4'
 config.forumUrl = 'https://community.libcrowds.com/t/in-the-spotlight'
 
 // Main background image for the site
-config.bgImg = require('@/custom/site/playbills/background.jpg')
+config.bgImg = require(`@/${basePath}/background.jpg`)
 
 // Sections of markdown text for the about page
 config.about = {
-  intro: require('@/custom/site/playbills/about/intro.md'),
+  intro: require(`@/${basePath}/about/intro.md`),
   subsections: [
     {
       id: 'projects',
       title: 'Projects',
-      markdown: require('@/custom/site/playbills/about/projects.md')
+      markdown: require(`@/${basePath}/about/projects.md`)
     },
     {
       id: 'technology',
       title: 'Technology',
-      markdown: require('@/custom/site/playbills/about/technology.md')
+      markdown: require(`@/${basePath}/about/technology.md`)
     },
     {
       id: 'contact',
       title: 'Contact',
-      markdown: require('@/custom/site/playbills/about/contact.md')
+      markdown: require(`@${basePath}/about/contact.md`)
     }
   ]
 }
 
 // Vue component for the results page
-// config.resultsComponent = require('@/custom/site/playbills/about/Results.vue')
+// config.resultsComponent = require(`@/${basePath}/Results.vue`)
 
 // Footer lead text
 config.footer = {

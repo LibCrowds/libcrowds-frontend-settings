@@ -2,11 +2,7 @@
 const config = {
   name: 'In the Spotlight',
   tagline: 'Bring past performances from the British Library’s historic playbills collection to life.',
-  description: 'Help rediscover popular entertainment from the past 300 years by transcribing names and performances on the playbills of Britain’s old theatres.',
-  dataLicense: {
-    name: 'CC0',
-    url: 'https://creativecommons.org/publicdomain/zero/1.0/'
-  }
+  description: 'Help rediscover popular entertainment from the past 300 years by transcribing names and performances on the playbills of Britain’s old theatres.'
 }
 
 // Order of preference for project thumbnail types

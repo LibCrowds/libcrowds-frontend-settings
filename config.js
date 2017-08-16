@@ -1,5 +1,3 @@
-const basePath = '/custom/site/settings/projects/playbills'
-
 // Basic configuration
 const config = {
   name: 'In the Spotlight',
@@ -28,26 +26,26 @@ config.avatarPreference = [
 config.forumUrl = 'https://community.libcrowds.com/t/in-the-spotlight'
 
 // Main background image for the site
-config.bgImg = require(`@/${basePath}/background.jpg`)
+config.bgImg = require(`./background.jpg`)
 
 // Sections of markdown text for the about page
 config.about = {
-  intro: require(`@/${basePath}/about/intro.md`),
+  intro: require(`./about/intro.md`),
   subsections: [
     {
       id: 'projects',
       title: 'Projects',
-      markdown: require(`@/${basePath}/about/projects.md`)
+      markdown: require(`./about/projects.md`)
     },
     {
       id: 'technology',
       title: 'Technology',
-      markdown: require(`@/${basePath}/about/technology.md`)
+      markdown: require(`./about/technology.md`)
     },
     {
       id: 'contact',
       title: 'Contact',
-      markdown: require(`@${basePath}/about/contact.md`)
+      markdown: require(`./about/contact.md`)
     }
   ]
 }

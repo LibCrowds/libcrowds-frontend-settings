@@ -1,4 +1,3 @@
-const isDev = process.env.NODE_ENV === 'development'
 const basePath = '/custom/site/settings/projects/playbills'
 
 // Basic configuration

@@ -6,14 +6,14 @@ const config = {
 }
 
 // Order of preference for project thumbnail types
-config.thumbnailPreference = [
+config.thumbnailPreferences = [
   'iiif',
   'custom',
   'gravatar'
 ]
 
 // Order of preference for user avatar types
-config.avatarPreference = [
+config.avatarPreferences = [
   'custom',
   'gravatar'
 ]

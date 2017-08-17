@@ -1,12 +1,13 @@
 # site-settings-playbills
 
-Configuration settings for use with
+Configuration settings for the In the Spotlight project, as presented via
 [vue-pybossa-frontend](https://github.com/LibCrowds/vue-pybossa-frontend).
 
 ``` bash
 # clone site settings
-git clone https://github.com/LibCrowds/site-settings-playbills /path/to/vue-pybossa-frontend/src/custom/site/playbills
+cd /path/to/vue-pybossa-frontend/src/settings/projects
+git clone https://github.com/LibCrowds/site-settings-playbills playbills
 
 # rebuild
-npm run build /path/to/vue-pybossa-frontend
+npm run build
 ```

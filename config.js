@@ -5,19 +5,6 @@ const config = {
   description: 'Help rediscover popular entertainment from the past 300 years by transcribing names and performances on the playbills of Britain’s old theatres.'
 }
 
-// Order of preference for project thumbnail types
-config.thumbnailPreferences = [
-  'iiif',
-  'custom',
-  'gravatar'
-]
-
-// Order of preference for user avatar types
-config.avatarPreferences = [
-  'custom',
-  'gravatar'
-]
-
 // Link to the site forum
 config.forumUrl = 'https://community.libcrowds.com/t/in-the-spotlight'
 

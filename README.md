@@ -5,7 +5,7 @@ Configuration settings for the In the Spotlight project, as presented via
 
 ``` bash
 # clone site settings
-cd /path/to/vue-pybossa-frontend/src/settings/projects
+cd /path/to/vue-pybossa-frontend/src/settings/collections
 git clone https://github.com/LibCrowds/site-settings-playbills playbills
 
 # rebuild

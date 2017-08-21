@@ -1,5 +1,6 @@
 // Basic configuration
 const config = {
+  key: 'convertacard',
   name: 'Convert-a-Card',
   tagline: 'Transform printed card catalogues into a searchable online database.',
   description: 'Help enhance the discoverablity of our collections by matching converting digitised catalogue cards into electonric records.'

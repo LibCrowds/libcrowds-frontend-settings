@@ -6,10 +6,10 @@ Configuration settings for use with
 ``` bash
 # clear old settings
 rm siteConfig.js
-rm -rf custom/*
+rm -rf src/custom/*/
 
 # clone new settings
-cd /path/to/vue-pybossa-frontend/src/settings/collections
+cd /path/to/vue-pybossa-frontend/src/custom
 git clone https://github.com/LibCrowds/libcrowds-frontend-settings settings
 
 # point to new settings

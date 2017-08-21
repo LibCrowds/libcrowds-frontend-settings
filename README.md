@@ -5,7 +5,7 @@ Configuration settings for use with
 
 ``` bash
 # clear old settings
-rm siteConfig.js
+rm src/siteConfig.js
 rm -rf src/custom/*/
 
 # clone new settings
@@ -13,7 +13,7 @@ cd /path/to/vue-pybossa-frontend/src/custom
 git clone https://github.com/LibCrowds/libcrowds-frontend-settings settings
 
 # point to new settings
-echo "module.exports = require('@/custom/settings/siteConfig.js')" >> siteConfig.js
+echo "module.exports = require('@/custom/settings/siteConfig.js')" >> src/siteConfig.js
 
 # rebuild
 npm run build

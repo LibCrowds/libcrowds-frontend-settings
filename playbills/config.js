@@ -1,6 +1,5 @@
 // Basic configuration
 const config = {
-  key: 'playbills',
   name: 'In the Spotlight',
   tagline: 'Bring past performances from the British Library’s historic playbills collection to life.',
   description: 'Help rediscover popular entertainment from the past 300 years by transcribing names and performances on the playbills of Britain’s old theatres.'

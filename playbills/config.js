@@ -17,9 +17,14 @@ config.about = {
   intro: require(`./about/intro.md`),
   subsections: [
     {
-      id: 'projects',
-      title: 'Projects',
-      markdown: require(`./about/projects.md`)
+      id: 'playbills',
+      title: 'About the *In the Spotlight* project',
+      markdown: require(`./about/playbills.md`)
+    },
+    {
+      id: 'contributions',
+      title: 'How your contributions to *In the Spotlight* make a difference',
+      markdown: require(`./about/contributions.md`)
     },
     {
       id: 'technology',

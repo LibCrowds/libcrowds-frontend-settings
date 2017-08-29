@@ -39,4 +39,7 @@ config.about = {
   ]
 }
 
+// Set the presenter type
+config.presenter = 'libcrowds-viewer'
+
 module.exports = config

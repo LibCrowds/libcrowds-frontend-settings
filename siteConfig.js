@@ -23,19 +23,6 @@ config.collections = {
   convertacard: require(`./convertacard/config.js`)
 }
 
-// Order of preference for project thumbnail types
-config.thumbnailPreferences = [
-  'iiif',
-  'custom',
-  'gravatar'
-]
-
-// Order of preference for user avatar types
-config.avatarPreferences = [
-  'custom',
-  'gravatar'
-]
-
 // Mapbox configuration for location stats
 config.mapbox = {
   id: 'mapbox.streets',

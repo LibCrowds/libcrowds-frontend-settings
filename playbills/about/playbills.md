@@ -10,4 +10,4 @@ you've seen?
 
 You can help by posting feedback on the
 [project forum](https://community.libcrowds.com/in-the-spotlight), emailing us
-[digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) or tweeting @@[LibCrowds](http://twitter.com/libcrowds).
+[digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) or tweeting @[LibCrowds](http://twitter.com/libcrowds).

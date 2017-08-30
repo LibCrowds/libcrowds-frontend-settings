@@ -18,12 +18,12 @@ config.about = {
   subsections: [
     {
       id: 'playbills',
-      title: 'About the *In the Spotlight* project',
+      title: 'About In the Spotlight',
       markdown: require(`./about/playbills.md`)
     },
     {
       id: 'contributions',
-      title: 'How your contributions to *In the Spotlight* make a difference',
+      title: 'How your contributions make a difference',
       markdown: require(`./about/contributions.md`)
     },
     {

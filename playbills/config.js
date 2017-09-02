@@ -43,8 +43,11 @@ config.about = {
 config.presenter = 'libcrowds-viewer'
 
 // Set the project terminology
-config.terminology: {
-  category: 'volume'
+config.terminology = {
+  category: 'volume',
+  categories: 'volumes',
+  project: 'project',
+  projects: 'projects'
 }
 
 module.exports = config

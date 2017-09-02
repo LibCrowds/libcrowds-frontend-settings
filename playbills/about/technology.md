@@ -10,7 +10,7 @@ of crowdsourcing projects. On the frontend, a custom theme has been
 developed using [Vue.js](https://vuejs.org/), a JavaScript 
 framework for building user interfaces. Images are loaded via [IIIF](http://iiif.io/) manifests
 generated from an internal repository for use by the Library's [Universal Viewer](http://blogs.bl.uk/digital-scholarship/2016/12/new-viewer-digitised-collections-british-library.html). A Vue.js component called 
-(LibCrowds Viewer)[https://github.com/LibCrowds/libcrowds-viewer] was written to present the microtasks. 
+[LibCrowds Viewer](https://github.com/LibCrowds/libcrowds-viewer) was written to present the microtasks. 
 As this component is entirely decoupled from *In the Spotlight* it could be used for additional crowdsourcing projects.
 
 Contributions are serialised according to the [Web Annotations Data Model](https://www.w3.org/TR/annotation-model/).

@@ -42,4 +42,9 @@ config.about = {
 // Set the presenter type
 config.presenter = 'default'
 
+// Set the project terminology
+config.terminology: {
+  category: 'volume'
+}
+
 module.exports = config

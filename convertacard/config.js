@@ -43,8 +43,11 @@ config.about = {
 config.presenter = 'default'
 
 // Set the project terminology
-config.terminology: {
-  category: 'volume'
+config.terminology = {
+  category: 'language',
+  project: 'drawer',
+  task: 'task',
+  taskRun: 'contribution'
 }
 
 module.exports = config

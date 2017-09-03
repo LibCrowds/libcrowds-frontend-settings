@@ -7,7 +7,7 @@ const config = {
   description: 'LibCrowds is a platform for hosting experimental crowdsourcing projects aimed at improving access to the diverse collections held at the British Library.',
   contact: {
     twitter: 'LibCrowds',
-    email: 'crowdsourcing@bl.uk'
+    email: 'digitalresearch@bl.uk'
   },
   githubUrl: 'https://github.com/LibCrowds',
   pybossaHost: isDev ? 'http://127.0.0.1:5000' : 'https://backend.libcrowds.com',

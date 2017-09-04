@@ -40,7 +40,7 @@ config.about = {
 }
 
 // Set the presenter type
-config.presenter = 'default'
+config.presenter = 'z3950'
 
 // Set the project terminology
 config.terminology = {

@@ -17,6 +17,9 @@ const config = {
   }
 }
 
+// Company logo
+config.logo = require('./config.js')
+
 // List of collection configurations
 config.collections = {
   playbills: require(`./playbills/config.js`),

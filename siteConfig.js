@@ -18,7 +18,7 @@ const config = {
 }
 
 // Company logo
-config.logo = require('./config.js')
+config.logo = require('./company-logo.svg')
 
 // List of collection configurations
 config.collections = {

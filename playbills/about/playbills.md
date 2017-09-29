@@ -11,7 +11,7 @@ the playbills easier to find.
 We're starting with a very simple but fun task:
 [mark out the titles of plays by drawing around them](https://www.libcrowds.com/collection/playbills/contribute/).
 The screenshot shows how varied the text on playbills can be -
-it's easy enough for people
+it's easy enough for people 
 to spot the title of upcoming plays on the page,
 but it's not the kind of task we can automate (yet).
 You'll notice the playbills used different typefaces,
@@ -23,6 +23,12 @@ We've chosen two volumes from the Theatre-Royal, Plymouth
 and one from the Theatre Royal, Margate to begin with.
 You can find out more about the project and the playbills,
 or you can just [dive in and play a role](https://playbills.libcrowds.com).
+
+As the titles in each volume are marked, we can add new tasks
+based on that work. For example, you can now transcribe marked 
+titles, type in any genres mentioned, and add dates to playbills. 
+These small tasks are fast and easy to complete, and cumulatively
+they make it easier for researchers to find playbills.
 
 This project is an 'alpha', work-in-progress that we
 think is almost but not quite ready for its moment

@@ -39,6 +39,9 @@ config.about = {
   ]
 }
 
+// Markdown text for the top of the contribute page
+config.contribute = require(`./contribute.md`),
+
 // Set the presenter type
 config.presenter = 'libcrowds-viewer'
 

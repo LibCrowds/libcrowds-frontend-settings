@@ -11,7 +11,7 @@ const config = {
   },
   githubUrl: 'https://github.com/LibCrowds',
   pybossa: {
-   host: isDev ? 'http://127.0.0.1:5000' : 'https://backend.libcrowds.com',
+    host: isDev ? 'http://127.0.0.1:5000' : 'https://backend.libcrowds.com',
     timeout: 5000
   },
   dataLicense: {

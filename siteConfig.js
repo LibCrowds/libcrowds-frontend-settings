@@ -10,7 +10,10 @@ const config = {
     email: 'digitalresearch@bl.uk'
   },
   githubUrl: 'https://github.com/LibCrowds',
-  pybossaHost: isDev ? 'http://127.0.0.1:5000' : 'https://backend.libcrowds.com',
+  pybossa: {
+   host: isDev ? 'http://127.0.0.1:5000' : 'https://backend.libcrowds.com',
+    timeout: 5000
+  },
   dataLicense: {
     name: 'CC0',
     url: 'https://creativecommons.org/publicdomain/zero/1.0/'

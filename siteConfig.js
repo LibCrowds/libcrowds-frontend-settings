@@ -22,12 +22,12 @@ const config = {
 }
 
 // Company logo
-config.logo = path.resolve('./company-logo.svg')
+config.logo = path.resolve(__dirname, 'company-logo.svg')
 
 // List of collection configurations
 config.collections = {
-  playbills: path.resolve(`./playbills/config.js`),
-  convertacard: path.resolve(`./convertacard/config.js`)
+  playbills: path.resolve(__dirname, `/playbills/config.js`),
+  convertacard: path.resolve(__dirname, `/convertacard/config.js`)
 }
 
 // Mapbox configuration for location stats

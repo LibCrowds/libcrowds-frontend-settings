@@ -1,3 +1,4 @@
+const path = require('path')
 const isDev = process.env.NODE_ENV === 'development'
 
 const config = {
@@ -21,12 +22,12 @@ const config = {
 }
 
 // Company logo
-config.logo = require('./company-logo.svg')
+config.logo = path.resolve('./company-logo.svg')
 
 // List of collection configurations
 config.collections = {
-  playbills: require(`./playbills/config.js`),
-  convertacard: require(`./convertacard/config.js`)
+  playbills: path.resolve(`./playbills/config.js`),
+  convertacard: path.resolve(`./convertacard/config.js`)
 }
 
 // Mapbox configuration for location stats
